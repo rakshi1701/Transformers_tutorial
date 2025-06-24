@@ -1,0 +1,77 @@
+🧭 60-Day Transformer Learning Roadmap
+🔰 Week 1: Foundations Refresher
+Day	Topic
+1	Linear Algebra: vectors, dot product, matrix multiplication
+2	Softmax, CrossEntropy, logits vs probabilities
+3	Neural Nets 101: FFNNs, ReLU, training loop
+4	Backpropagation and gradients
+5	Embeddings: word vectors, lookup tables
+6	Positional encoding (why it's needed, sin/cos)
+7	Review + small quiz / practice coding embeddings
+
+📏 Week 2: Sequence Models & Attention
+Day	Topic
+8	RNNs: architecture, limitations
+9	LSTMs & GRUs: concepts and usage
+10	Sequence-to-sequence models
+11	Attention mechanism: motivation
+12	Scaled Dot-Product Attention step-by-step
+13	Multi-Head Attention explained
+14	Implement basic attention in PyTorch
+
+🏗️ Week 3: Transformer Architecture (Encoder/Decoder)
+Day	Topic
+15	Transformer architecture overview
+16	Encoder block in detail
+17	Decoder block in detail
+18	Residual connections & LayerNorm
+19	Feedforward sublayer (position-wise)
+20	Positional encoding integration
+21	Review full forward pass through Transformer
+
+🧪 Week 4: Coding Mini-Transformer from Scratch
+Day	Topic
+22	Define configuration (hyperparams, architecture)
+23	Token embedding + positional embedding
+24	Implement attention head
+25	Implement multi-head attention
+26	Implement encoder block
+27	Stack multiple encoder blocks
+28	Build a minimal transformer encoder model
+
+🧰 Week 5: Training Your Transformer
+Day	Topic
+29	Load toy dataset (e.g. synthetic sequence data)
+30	Prepare batches and mask padding
+31	Define loss function (CrossEntropy)
+32	Optimizer: Adam vs AdamW
+33	Learning rate schedule (warmup + decay)
+34	Training loop implementation
+35	Train and validate your mini-transformer
+
+🧠 Week 6: Deep Dive into BERT & GPT
+Day	Topic
+36	BERT: encoder-only, pretraining tasks
+37	Implement Masked LM for BERT
+38	GPT: decoder-only, causal masking
+39	Text generation with GPT
+40	Differences: BERT vs GPT
+41	Try Hugging Face BERT/GPT
+42	Inference and simple fine-tuning (sentiment, Q&A)
+
+🧿 Week 7: Vision Transformers (ViT)
+Day	Topic
+43	CNN vs Transformer for images
+44	ViT: patch embeddings and transformer block
+45	Positional encoding in ViT
+46	Train ViT on small image dataset (e.g. CIFAR-10)
+47	Load pretrained ViT from Hugging Face / timm
+48	Fine-tune ViT on a custom classification task
+49	Analyze ViT performance and interpret results
+
+🧪 Week 8 & 9: Final Projects
+Day	Task
+50–53	Project 1: Text classification using Transformer
+54–56	Project 2: Machine translation or summarization
+57–59	Project 3: Vision Transformer on custom data
+60	Recap + What’s Next (LLMs, Efficient Transformers, papers to read)
